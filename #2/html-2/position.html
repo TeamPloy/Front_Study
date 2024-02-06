@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            border-collapse: collapse;
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            color: black;
+            list-style: none;
+            
+        }
+        .blankPosition{
+            width: 100%;
+            background-color: antiquewhite;
+            height: 400px;
+        }
+        .blackPosition > div{
+            height: 400px;
+        }
+        .reative{
+            width: 100%;
+            background-color: saddlebrown;
+        }
+        .reative > div:first-child{
+            position: relative; 
+            /* 여러 요소들과 관계된 현재 위치 */
+        }
+        .absolute >div{
+            top: 50px;
+            left: 0px;
+            position: absolute;
+            /* 독릭적으로 좌표만을 따르는 기준 */
+            margin: 0px;
+            width: 100%;
+            background-color: wheat;
+        }
+        .fixed{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            background-color: aquamarine;
+        }
+    </style>
+    <div class="blankPosition">
+        <div>blank</div>
+    </div>
+    <div class="reative">
+        <div>reative</div>
+        <div>reative</div>
+    </div>
+    <div class="absolute">
+        <div>absolute</div>
+    </div>
+    <div class="fixed">
+        <div>fixed</div>
+    </div>
+</body>
+</html>

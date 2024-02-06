@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            border-collapse: collapse;
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            color: black;
+            list-style: none;
+            
+        }
+        .asd{
+            display: flex;
+        }
+        div> span{
+            display: block;
+            background-color: pink;
+        }
+        div> div{
+            flex: 1;
+        }
+        div > div:first-child{
+            flex: 2;
+        }
+    </style>
+    <div>
+        <span>span</span>
+        <span>span</span>
+    </div>
+
+    <div class="asd">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
