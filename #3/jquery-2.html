@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $(".cooking > img").click(function(){
+                $(this).attr("src","../img/icon3.png")
+            })
+            // $(".btn").click(function()
+            // {   
+            //     $(".popup_bg").css({
+            //         "display" : "block"
+            //     });
+            // });
+            
+            // $(".popup_bg").click(function(){
+            //     // $(".popup_bg").css({
+            //     //     "display" : "none"
+            //     // });
+            //     $(this).css({
+            //         "display" : "none"
+            //     });
+            // });
+
+            // $(".btn").hover(function(){
+            //     $(this).css({
+            //         "background" : "blue",
+            //         "transition" : "0.8s"
+            //     })
+
+            // },
+            // function(){
+            //     $(this).css({
+            //         "background" : "red"
+            //     })
+            // })
+        });
+    </script>
+    <style>
+        /* .btn{
+            width: 100px;
+            height: 100px;
+            background-color: darkblue;
+            color: #fff;
+            cursor: pointer;
+        } */
+        /* .popup_bg{
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .popup{
+            position: absolute;
+            left: calc(50% - 150px);
+            top: calc(50% - 250px);
+            width: 300px;
+            height: 500px;
+            background-color: #fff;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <div class="btn">메뉴</div>
+    <div class="btn">메뉴</div>
+    <div class="btn">메뉴</div>
+    <div class="btn">메뉴</div> -->
+    <!-- <div class="popup_bg">
+        <div class="popup"></div>
+    </div> -->
+
+    <div class="cooking">
+        <img src="../img/food.png">
+    </div>
+</body>
+</html>
