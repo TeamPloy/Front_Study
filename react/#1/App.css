@@ -1,0 +1,28 @@
+
+.App {
+  text-align: center;
+}
+.black1{
+  width: 100%;
+  background-color: black;
+  height: 50px;
+}
+.black1 > h4{
+  margin: auto;
+  color: white;
+  font-size: 26px;
+  text-align: left;
+
+}
+.list{
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
+}
