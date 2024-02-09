@@ -8,6 +8,17 @@
     color: black;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: lighter;
+}
+.contents1 {
+    font-size: 20px;
+}
+
+.result {
+    font-size: 24px;
+}
 .intro_bg {
     background-image:url("img/intro.png");
     width: 100%;
@@ -59,4 +70,41 @@
 
 .nav > li > a{
     color: #fff ;
+}
+
+.intro_text {
+    width: 100%;
+    margin: 231px auto 231px auto; /* 상 우 하 좌 */
+    text-align: center;
+ }
+
+.intro_text > h1,
+.intro_text > h4  {
+    color: #fff;
+}
+
+.amount {
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1); /* 좌우, 아래, 뿌려지는 정도, */
+}
+
+.amount > li {
+    flex : 1;
+    height: 132px;
+}
+
+
+.amount > li > div {
+    text-align: center;
+    margin-top: 37px;
+    height: 57px;   
+}
+
+.amount > li > div:not(:last-child){
+    border-right: 1px solid #e1e1e1  ;
 }
